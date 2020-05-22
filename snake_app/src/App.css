@@ -1,0 +1,24 @@
+.game-border {
+  text-align: center;
+  border: 1px solid black;
+  height: 700px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: relative;
+}
+
+.snake{
+  background-color: black;
+  height: 20px;
+  width: 20px;
+  position:absolute;
+}
+
+.food{
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  position: absolute;
+}
